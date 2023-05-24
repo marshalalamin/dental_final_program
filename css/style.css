@@ -1,0 +1,857 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    h1,h2,h3,h4,h5,h6,p,ul,li,a{margin: 0;
+        padding: 0;
+
+    }
+    /*=============================upper header section start */
+    body{
+    font-family: 'Roboto', sans-serif;
+
+    }
+    .icon_item i{
+
+/* margin-left: 21px; */
+
+}
+    header{
+    padding: 44px 0px;
+    }
+    .icon_item{
+    color: #f59165;
+    font-size: 32px;
+    font-weight: 500;
+    font-weight: 600;
+    margin-right: 25px;
+    }
+
+    .header_content{
+    margin: 0;
+    padding: 0;
+    line-height: 10px;
+    margin-left: -16px;
+    /* padding: 0px 1px; */
+    }
+    .header_content h1{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 31px;
+    padding: 0px 1px;
+    text-align: center;
+    color: #363636;
+    }
+
+    .header_content p{
+    margin: 0;
+    padding: 0;
+    color: #a0a0a0;
+    font-size: 16px;
+
+    }
+
+.header_logo{
+    width: 200px;
+}
+
+    .header_item{
+    display: flex;
+    align-items: center;
+    /* padding: 0 18px; */
+    /* margin-left: -11px; */
+    margin-right: -11px;
+    }
+    /* ==============================upper header section start */
+
+    /* main header section start */
+
+    .main_header{
+    background: #00cce1;
+    display: flex;
+    align-items: center;
+
+    }
+
+    .btn_appontment{
+    color: #ffffff;
+    background: #f69165;
+    text-transform: uppercase;
+    padding: 25px 30px;
+    clip-path: polygon(10% 0, 98% 0, 90% 100%, 1% 100%);
+    transition: 0.4s all ease-in-out;
+    }
+
+
+    .btn_appontment:hover{
+    background-color: #f59165;
+    clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 100%);
+    color: #ffffff;
+
+    }
+
+
+    .nav-link {position: relative;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: 0.5s all ease-in-out;
+
+    }
+    .nav-link:hover{
+    color: #ffffff;
+    }
+
+    .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 3px;
+    background: #f69165;
+    transition: 0.4s all ease-in-out;
+    }
+
+    .nav-link:hover::before {
+    left: 0;
+    width: 100%;
+    }
+    /* ===============================main header section end==================*/
+
+    /*================================ bannar section start */
+    .bannar{background-image: url(../img/bg_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    }
+
+    .bannar h3{
+    color: #ffffff;
+    background: #00cce1;
+    padding: 5px 13px;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 14px;
+    }
+
+    .bannar h1{
+    background: #f69165;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 29px;
+    color: #ffffff;
+    }
+
+    .bannar p{
+    color: #636363;
+    font-size: 16px;
+    margin: 10px 0px 10px;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .batton{
+    margin-top: 19px;
+    }
+
+    .btn_learn{
+    background: #f69165;
+    border-radius: inherit;
+    padding: 10px 14px;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 30px;
+
+    font-weight: 600;
+    transition: 0.4s all ease-in-out;
+    }
+    .btn_learn:hover{
+    background-color: #00cce1;
+    color: #ffffff;
+
+    }
+    .btn_book{
+    background: #00cce1;
+    border-radius: inherit;
+    padding: 10px 14px;
+    color: #ffffff;
+    margin: 0px 20px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 600;
+    transition: 0.4s all ease-in-out;
+
+    }
+
+    .btn_book:hover{
+    background-color: #f69165;
+    color: #ffffff;
+
+    }
+    .bannar_img{
+    position: absolute;
+    left: 41%;
+    bottom: 0;
+    width: 50%;
+    height: 70%;
+    }
+    .height{
+    height: 80vh;
+    align-items: center;
+    } 
+    .owl-carousel .owl-nav .owl-prev{
+    background: #f69165 !important;
+    width: 32px;
+    height: 32px;
+    font-size: 27px !important;
+    line-height: 30px;
+    line-height: 32px !important;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    color: #ffffff !important;
+    left: -19%;
+    transform: translate(-50%);
+    }
+
+    .owl-carousel .owl-nav .owl-next{
+    background: #f69165 !important;
+    width: 32px;
+    height: 32px;
+    font-size: 27px !important;
+    line-height: 30px;
+    line-height: 32px !important;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    color: #ffffff !important;
+    right: -22%;
+    transform: translate(-50%);
+    }
+
+    .owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    }
+
+    .owl-dots .owl-dot span{
+    display: block;
+    height: 10px;
+    width: 10px;
+    background: #c6ccd0;
+    border-radius: 50px;
+    margin: 3px;
+    }
+    .owl-dots .owl-dot.active span{
+    background-color: #f59165;
+
+    }
+
+    /*++++++++++++++++++++++++++bannar section end */
+
+
+    /* <!-- =================dental agency section start========================== */
+
+    .dental_agency{
+    padding: 80px 0px;
+    position: relative;
+    }
+    .dental_agency h1{
+    color: #000000;
+    font-size: 35px;
+    line-height: 36px;
+    margin: 10px 0px;
+    font-weight: 600;
+    }
+    .dental_agency p{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: mar;
+    margin: 25px 0px;
+    }
+    .dental_pic{
+    position: absolute;
+    bottom: 0;
+    left: 6%;
+    width: 44%;
+    transform: translate(-6%);
+    }
+
+    .dentail_main_section{
+
+    }
+    .dentail_main_section h3{
+    font-size: 20px;
+    margin: 13px 0px;
+    font-weight: 600;
+    }
+    .dentail_main_section p{
+    color: #707070;
+    font-size: 16px;
+    line-height: 29px;  
+    margin: 2px 0px;
+    }
+    .dental_icon{
+    color: #ffffff;
+
+    }
+    /* <!-- =================dental agency section end========================== */
+
+    /* doctor info section start=========================== */
+
+    .doctor_info{
+    background-color: #f9f9f9;
+    }
+    .doctor_wrapper{
+    position: relative;
+    padding: 4px 0px;
+    color: #ffffff;
+    transition: 0.4s all ease-in-out;
+    text-align: center;
+    }
+
+    .doctor_wrapper:hover h3 {
+    color: #f69165;
+
+    }
+
+    .doctor_wrapper::before{
+    content: " ";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #00aeeb;
+    padding: 0;
+    margin: 0.4s all ease-in-out;
+    }
+    .doctor_wrapper:hover::before{
+    background-color: #f59165;
+    }
+    .doctor_wrapper h3{ 
+    color: #363636;  
+    font-size: 20px;  
+    margin: 10px 0px;
+
+    }
+    .doctor_wrapper p{   
+    text-align: center;   
+    color: #707070;   
+    font-size: 15px; 
+    font-weight: 400;
+    }
+
+    .doctor_pic{position: relative;
+
+    }
+    .doctor_pic::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #454545;
+    opacity: 0.5;
+    transition: 0.4s all ease-in-out;
+    }
+    .doctor_pic:hover:before{
+    width: 100%;
+    }
+
+    .doctor_pic_icon{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    }
+
+    .doctor_pic_icon ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    }
+    .doctor_pic_icon ul li{
+    border: 2px solid #ffffff;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    margin-right: 7px;
+    transition: 0.4s all ease-in-out;
+    }
+    .doctor_pic_icon ul li a{
+    color: #ffffff;
+    }
+    .doctor_pic_icon ul li:hover{
+    background: #f89166;
+    border-radius: 9px;
+    }
+    .doctor_pic:hover .doctor_pic_icon{
+    opacity: 1;
+    }
+    .doctor_pic:hover h3{
+    background-color: red;
+    }
+
+    /* doctor info section end=========================== */
+
+    /* #################### service section start++++++++++++++++++++++ */
+
+    .our_service_section{
+    padding: 12px 17px;
+    border: 2px solid #ebebeb;
+    transition: 0.4s all ease-in-out;
+    margin: 10px;
+    }
+
+    .our_service_section:hover{
+    border: 2px solid #f59165;
+    }
+
+    .our_service_section:hover h3{
+    color: #f59165;
+    }
+    .our_service_section:hover .btn_read{
+    color: #f59165;
+    }
+
+    .service{
+
+    }
+    .service p{
+    margin-top: 10px;
+    line-height: 28px;
+    color: #707070;
+    font-size: 16px;
+    }
+
+    .btn_read{
+    color: #707070;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-right: 9px;
+    margin: 0;
+    padding: 0;
+    }
+
+    .service_item{
+    display: flex;
+    align-items: center;
+    }
+
+    .service_item h3{
+    color: #363636;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 12px;
+    }
+    .margin{
+    margin: 10px;
+    }
+    /* #################### service section end++++++++++++++++++++++ */
+
+
+
+
+    /* pricing section start=============================== */
+
+    .pricing_section{
+    background: #f9f9f9;
+    padding: 54px 0px;
+    }
+    .pricing_content{
+    padding: 20px 10px;
+    }
+    .pricing_item{
+    border: 3px solid #ffffff;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.4s all ease-in-out;
+    }
+
+
+    .pricing_item:hover{
+    border: 3px solid #f69165;
+
+    }
+
+    .pricing_item:hover h4{
+    color:  #f69165;
+    }
+
+    .pricing_item h4{
+    color: #00cce1;
+    margin: 0;
+    margin-bottom: 10px;
+    transition: 0.4s all ease-in-out;
+    }
+    .pricing_item p{
+    color: #707070;
+    margin: 0;
+    margin-bottom: 14px;
+    transition: 0.4s all ease-in-out;
+    }
+
+    .price{
+    background: #ffffff;
+    padding: 16px 0px;
+    transition: 0.4s all ease-in-out;
+
+    }
+    .pricing_item:hover .price{
+    background-color: #f59165;
+    color: #ffffff;
+    }
+
+    .price h1{
+    color: #00cce1;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    transition: 0.4s all ease-in-out;
+    }
+
+    .price p{
+    font-size: 13px;
+    color: #00cce1;
+    margin: 0;
+    padding: 0;
+    transition: 0.4s all ease-in-out;
+    }
+
+    .pricing_item:hover .price h1{
+    color: #ffffff;
+    }
+
+    .pricing_item:hover .price p{
+    color: #ffffff;
+    }
+
+    .pricing_item ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    .pricing_item ul li{
+    color: #707070;
+    font-size: 15px;
+    line-height: 28px;
+    }
+    .btn_sing{
+    background: #00cce1;
+    border-radius: 0;
+    color: #ffffff;
+    line-height:  28px;
+    padding: 8px 31px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    transition: 0.4s all ease-in-out;
+    }
+    .pricing_item:hover .btn_sing{
+    background-color: #f59165;
+    color: #ffffff;
+    }
+    /* pricing section end=============================== */
+
+
+
+    .clint_section{
+    background-image: url(../img/01_Index-page.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0px;
+    }
+    .logo{
+
+    width: 130px;
+    }
+    .clint_section::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+    opacity: 0.5;
+    }
+
+
+    .clint_carousel .owl-stage{
+    display: flex;
+    align-items: center;
+    }
+
+
+
+
+
+
+
+
+    /* ===================================footer section start======================================== */
+    footer{
+    background-image: url(../img/footer.bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    padding: 70px 0px;
+    position: relative;
+    z-index: 0;
+    }
+
+    footer::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1b1b1b;
+    opacity: 1;
+    z-index: -1;
+    }
+
+    .ffoter_logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    background: transparent;
+    font-size: 26px;
+    font-weight: 600;
+    }
+    .ffoter_logo h3{
+    margin: 0;
+    padding: 0;
+    margin-left: 14px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 31px;
+    z-index: 1;
+    }
+    .ffoter_logo img{
+
+    }
+
+    footer p{
+    color: #b4b4b4;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    margin-top: 20px;
+    z-index: 2;
+    }
+
+    .footer_wrapper{
+
+    }
+    .footer_item{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin: 10px 0px;
+    }
+    .footer_location{
+    font-size: 30px;
+    color: #00cce1;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-top: 18px;
+    }
+    .footer_content{
+    margin: 0;
+    padding: 0;
+    margin-left: 21px;
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+    }
+    .footer_content p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+    }
+
+
+    .footer_location img{
+
+    width: 110px;
+    }
+
+    .footer_items{
+    display: flex;
+    }
+    .footer_content span{
+    font-size: 13px;
+    margin-top: 10px;
+    display: block;
+    color: #777777;
+    }
+
+    .contact_form{
+
+    }
+    .content{
+
+    }
+    .content p{
+    margin: 0;
+    padding: 0;
+    margin: 20px 0px 30px;
+    z-index: 1;
+    }
+    .content h1{
+    color: #ffffff;
+    font-size: 30px;
+    z-index: 1;
+    }
+
+    .form{
+    display: flex;
+
+    }
+    .form input{
+    background: transparent;
+    border: none;
+    border: 1px solid #707070;
+    border-radius: 0;
+    padding: 13px 0px;
+    z-index: 1;
+    }
+
+
+    .form input::placeholder{
+    color: #a0a0a0;
+    margin-left: 10px;
+    }
+    .form input:focus{
+    outline: none;
+    background: transparent;
+    border: none;
+    border: 1px solid #a0a0a0;
+    }
+    .form button{
+    width: 110px;
+    padding: 13px;
+    color: #ffffff;
+    background: #00cce1;
+    background: transparent;
+    border: navajowhite;
+    border-radius: none;
+    border: 1px solid #00cce1;
+    background: #00cce1;
+    margin: 0;
+    margin-left: 1px;
+    text-transform: uppercase;
+    transition: 0.4s all ease-in-out;
+    }
+
+
+    .form button:hover{
+    background-color: #f89166;
+    border: 1px solid #f89166;
+    }
+    .contact_form h2{
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 0;
+    margin: 20px 0px;
+    }
+    .contact_form ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 5px;
+
+    }
+
+    .contact_form ul li{
+    margin-left: 8px;
+
+    }
+    .contact_form ul li a{
+    color: #ffffff;
+    background: #323232;
+    padding: 13px 15px;
+    font-size: 22px;
+    transition: 0.4s all ease-in-out;
+    }
+
+    .contact_form ul li a:hover{
+    background-color: #f89166;
+    border-radius: 3px;
+
+    }
+
+    .from_flex{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin: 40px 0px;
+    z-index: 1;
+    }
+    /* footer section end======================================== */
+
+
+    /* =========================================main footer sectio start */
+    .main_footer{
+    background-color: #161616;
+
+    }
+
+    .foooter_content{
+    text-align: center;
+    padding: 20px 1px;
+
+    }
+
+    .foooter_content p{
+    color: #777777;
+    font-size: 12px;
+
+    }
+
+    .foooter_content a{
+    color: #00cce1;
+    text-decoration: none;
+    transition: 0.4 all ease-in-out;
+    }
+
+    .foooter_content a:hover{
+    color: #f59165;
+    }
+
+    /* ====================================================main footer sectio end============================ */
+
+
