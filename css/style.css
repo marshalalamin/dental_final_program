@@ -323,6 +323,9 @@
     color: #f69165;
 
     }
+    /* .doc_img img{
+        width: 100;
+    } */
 
     .doctor_wrapper::before{
     content: " ";
@@ -423,6 +426,7 @@
 
     .our_service_section:hover{
     border: 2px solid #f59165;
+    box-shadow: #f59165 0px 5px 14px 0px;
     }
 
     .our_service_section:hover h3{
@@ -491,7 +495,7 @@
 
     .pricing_item:hover{
     border: 3px solid #f69165;
-
+    transform: scale(1.02);
     }
 
     .pricing_item:hover h4{
